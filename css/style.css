@@ -1,4 +1,4 @@
-.fondo{
+.fondos{
     height: 100vh;
     background: url(../img/ivan-bandura-YK1EZWREs_Y-unsplash.jpg);
     background-repeat: no-repeat;
@@ -109,3 +109,48 @@
         padding-top: 30px;
     }
 }
+
+/*========= ENCABEZADO SECCIONES =====*/
+#subtitulo {
+    color: black;
+}
+
+#titulo {
+    font-weight: bold;
+    color: black;
+}
+
+/*======== PERFIL =======*/
+.profile-banner{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: url('../img/bg-perfil.jpg') 100% 100% fixed;
+    padding: 1rem;
+    height: 426px;
+    background-size: cover;
+}
+
+.caracteristicas-banner{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: url('../img/caracteristicas-banner.jpg') 100% 100% fixed;
+    padding: 1rem;
+    height: 426px;
+}
+
+.tecnicas-banner{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: url('../img/tecnicas-banner.jpg') 100% 100% fixed;
+    padding: 1rem;
+    height: 426px;
+    background-size: cover;
+}
+
+/*.tarjeta {
+    max-height: 315px;
+    /*box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+}*/
